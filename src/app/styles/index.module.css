@@ -1,0 +1,70 @@
+body #next {
+  background-image: linear-gradient(to bottom right, #eef2ff, #fff, #cffafe);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.heading {
+  font-size: 3rem;
+  letter-spacing: -3px;
+  font-weight: 700;
+  display: flow;
+  padding: 1.6em 0;
+  max-width: 50%;
+  height: fit-content;
+}
+
+.text {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: -1.4px;
+  padding-bottom: 12px;
+}
+
+.restrictedCTA {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mark {
+  color: #21a8da;
+}
+
+.restrictedHeader {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    gap: 0;
+  }
+
+  .heading {
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    letter-spacing: -3px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

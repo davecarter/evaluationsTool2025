@@ -1,0 +1,76 @@
+.container {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  padding: 16px;
+  left: 0;
+  backdrop-filter: blur(14px);
+  background-color: #0000001a;
+  z-index: 1;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+}
+
+.tag {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+button.logout {
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .logoLiteral {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .language {
+    display: none;
+  }
+}
